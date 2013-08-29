@@ -140,6 +140,8 @@ namespace ForecastIO
         [DataMember]
         public Int64 sunsetTime { get; set; }
         [DataMember]
+        public string precipType { get; set; }
+        [DataMember]
         public decimal precipIntensity { get; set; }
         [DataMember]
         public decimal precipIntensityMax { get; set; }
