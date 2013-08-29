@@ -8,13 +8,13 @@ namespace ForecastIO
     public class ForecastIOResponse
     {
         [DataMember]
-        public float latitude { get; set; }
+        public decimal latitude { get; set; }
         [DataMember]
-        public float longitude { get; set; }
+        public decimal longitude { get; set; }
         [DataMember]
         public string timezone { get; set; }
         [DataMember]
-        public float offset { get; set; }
+        public decimal offset { get; set; }
         [DataMember]
         public Currently currently { get; set; }
         [DataMember]
@@ -38,29 +38,29 @@ namespace ForecastIO
         [DataMember]
         public string icon { get; set; }
         [DataMember]
-        public float precipIntensity { get; set; }
+        public decimal precipIntensity { get; set; }
         [DataMember]
-        public float precipProbability { get; set; }
+        public decimal precipProbability { get; set; }
         [DataMember]
-        public float temperature { get; set; }
+        public decimal temperature { get; set; }
         [DataMember]
-        public float apparentTemperature { get; set; }
+        public decimal apparentTemperature { get; set; }
         [DataMember]
-        public float dewPoint { get; set; }
+        public decimal dewPoint { get; set; }
         [DataMember]
-        public float windSpeed { get; set; }
+        public decimal windSpeed { get; set; }
         [DataMember]
-        public float windBearing { get; set; }
+        public decimal windBearing { get; set; }
         [DataMember]
-        public float cloudCover { get; set; }
+        public decimal cloudCover { get; set; }
         [DataMember]
-        public float humidity { get; set; }
+        public decimal humidity { get; set; }
         [DataMember]
-        public float pressure { get; set; }
+        public decimal pressure { get; set; }
         [DataMember]
-        public float visibility { get; set; }
+        public decimal visibility { get; set; }
         [DataMember]
-        public float ozone { get; set; }
+        public decimal ozone { get; set; }
     }
     [DataContract]
     public class MinuteForecast
@@ -68,7 +68,7 @@ namespace ForecastIO
         [DataMember]
         public Int64 time { get; set; }
         [DataMember]
-        public float precipIntensity { get; set; }
+        public decimal precipIntensity { get; set; }
     }
     [DataContract]
     public class Minutely
@@ -90,31 +90,31 @@ namespace ForecastIO
         [DataMember]
         public string icon { get; set; }
         [DataMember]
-        public float precipIntensity { get; set; }
+        public decimal precipIntensity { get; set; }
         [DataMember]
-        public float precipProbability { get; set; }
+        public decimal precipProbability { get; set; }
         [DataMember]
         public string precipType { get; set; }
         [DataMember]
-        public float temperature { get; set; }
+        public decimal temperature { get; set; }
         [DataMember]
-        public float apparentTemperature { get; set; }
+        public decimal apparentTemperature { get; set; }
         [DataMember]
-        public float dewPoint { get; set; }
+        public decimal dewPoint { get; set; }
         [DataMember]
-        public float windSpeed { get; set; }
+        public decimal windSpeed { get; set; }
         [DataMember]
-        public float windBearing { get; set; }
+        public decimal windBearing { get; set; }
         [DataMember]
-        public float cloudCover { get; set; }
+        public decimal cloudCover { get; set; }
         [DataMember]
-        public float humidity { get; set; }
+        public decimal humidity { get; set; }
         [DataMember]
-        public float pressure { get; set; }
+        public decimal pressure { get; set; }
         [DataMember]
-        public float visibility { get; set; }
+        public decimal visibility { get; set; }
         [DataMember]
-        public float ozone { get; set; }
+        public decimal ozone { get; set; }
     }
     [DataContract]
     public class Hourly
@@ -140,43 +140,43 @@ namespace ForecastIO
         [DataMember]
         public Int64 sunsetTime { get; set; }
         [DataMember]
-        public float precipIntensity { get; set; }
+        public decimal precipIntensity { get; set; }
         [DataMember]
-        public float precipIntensityMax { get; set; }
+        public decimal precipIntensityMax { get; set; }
         [DataMember]
-        public float precipProbability { get; set; }
+        public decimal precipProbability { get; set; }
         [DataMember]
-        public float temperatureMin { get; set; }
+        public decimal temperatureMin { get; set; }
         [DataMember]
         public Int64 temperatureMinTime { get; set; }
         [DataMember]
-        public float temperatureMax { get; set; }
+        public decimal temperatureMax { get; set; }
         [DataMember]
         public Int64 temperatureMaxTime { get; set; }
         [DataMember]
-        public float apparentTemperatureMin { get; set; }
+        public decimal apparentTemperatureMin { get; set; }
         [DataMember]
         public Int64 apparentTemperatureMinTime { get; set; }
         [DataMember]
-        public float apparentTemperatureMax { get; set; }
+        public decimal apparentTemperatureMax { get; set; }
         [DataMember]
         public Int64 apparentTemperatureMaxTime { get; set; }
         [DataMember]
-        public float dewPoint { get; set; }
+        public decimal dewPoint { get; set; }
         [DataMember]
-        public float windSpeed { get; set; }
+        public decimal windSpeed { get; set; }
         [DataMember]
-        public float windBearing { get; set; }
+        public decimal windBearing { get; set; }
         [DataMember]
-        public float cloudCover { get; set; }
+        public decimal cloudCover { get; set; }
         [DataMember]
-        public float humidity { get; set; }
+        public decimal humidity { get; set; }
         [DataMember]
-        public float pressure { get; set; }
+        public decimal pressure { get; set; }
         [DataMember]
-        public float visibility { get; set; }
+        public decimal visibility { get; set; }
         [DataMember]
-        public float ozone { get; set; }
+        public decimal ozone { get; set; }
     }
     [DataContract]
     public class Daily
